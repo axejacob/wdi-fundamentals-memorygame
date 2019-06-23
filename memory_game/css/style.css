@@ -10,3 +10,41 @@ font-family: "Droid Serif", serif;
 body {
 text-align: center;
 }
+
+footer {
+font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+padding: 0 20px 0 20px;
+background-color: #0D2C40;
+color: white;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.8em;
+}
+
+.copyright	{
+float: left;
+}
+
+.message	{
+float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name	{
+	color: #F15B31;
+	font-weight: 700;
+}
+
+a.hover	{
+	border-color: white;
+
+}
